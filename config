@@ -279,7 +279,7 @@ bindsym $mod+Ctrl+l exec --no-startup-id i3lock -c 000000
 
   # Autostart applications
   exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-  exec --no-startup-id feh --bg-scale $HOME/.i3/.local/backgrounds/Austria_by_Rutger_Heijmerikx.jpg
+  exec --no-startup-id feh --bg-scale $HOME/.config/i3/.local/backgrounds/Austria_by_Rutger_Heijmerikx.jpg
   exec --no-startup-id autorandr
   #exec --no-startup-id manjaro-hello
   exec --no-startup-id nm-applet
